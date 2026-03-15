@@ -21,6 +21,9 @@ if [ ! -f "$BASE_DIR/screensaver.sh" ]; then
     sleep 5
 fi
 
+# --- ENSURE CORRECT DIRECTORY ---
+cd "$BASE_DIR"
+
 # --- THE MENU ---
 clear
 echo "======================================"
